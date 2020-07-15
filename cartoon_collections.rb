@@ -20,7 +20,7 @@ def list_dwarves(array)
   dwarves = ["Dopey", "Grumpy", "Bashful"]
   
   i= 1
-  dwarves.each_with_index |dwarves|
+  dwarves.each_with_index |dwarves| do
     puts i + dwarves
     i += 1.to_s + ".*" + dwarves
     i =+ 1
