@@ -19,9 +19,9 @@ def list_dwarves(array)
   # Print a numbered list of each element
   dwarves = ["Dopey", "Grumpy", "Bashful"]
   
-  i= 1.to_s
+  i= 1
   dwarves.each_with_index do |dwarves| 
-    puts i + dwarves
+    puts i.to_s + dwarves
     i += 1
   end
 end
