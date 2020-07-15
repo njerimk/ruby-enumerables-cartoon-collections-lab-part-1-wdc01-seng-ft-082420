@@ -23,6 +23,7 @@ def list_dwarves(array)
   dwarves.each_with_index |dwarves|
     puts i + dwarves
     i += 1.to_s + ".*" + dwarves
+    i =+ 1
   end
 end
 
