@@ -5,7 +5,13 @@ def greet_characters(array)
   dwarves = ["Dopey", "Grumpy", "Bashful"]
     dwarves.each do |dwarves|
       puts "Hello there Mr." + dwarves
+  end
 end
+
+dwarves = ["Dopey", "Grumpy", "Bashful"]
+greet_characters(dwarves)
+
+
 
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
