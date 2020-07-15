@@ -21,7 +21,7 @@ def list_dwarves(array)
   
   i= 1
   dwarves.each_with_index do |dwarves| 
-    puts i.to_s + dwarves
+    puts i.to_s + "." + dwarves
     i += 1
   end
 end
